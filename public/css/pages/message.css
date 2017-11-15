@@ -1,0 +1,30 @@
+.message {
+    margin:200px auto;
+    width: 500px;
+}
+.message .portlet {
+    margin-bottom: 15px;
+}
+.message .portlet-body {
+    background-position: 40px 30px;
+    background-repeat: no-repeat;
+    padding:25px 30px 20px 130px !important;
+    font-size: 14px;
+    line-height: 180%;
+}
+
+.message-message .portlet-body {
+    background-image: url('/img/function/message.gif');
+}
+.message-success .portlet-body {
+    background-image: url('/img/function/success.gif');
+}
+.message-error .portlet-body {
+    background-image: url('/img/function/error.gif');
+}
+.message-warning .portlet-body {
+    background-image: url('/img/function/warning.gif');
+}
+.language {text-align: center;}
+.language a {color: #aaa;}
+.language span.divider {color: #888; margin:0 5px;}
