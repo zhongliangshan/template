@@ -17,9 +17,3 @@ function get_loc_from_host($host)
         return "";
     }
 }
-
-function getDataCenterApiToken($apiname)
-{
-    $arr = explode('_', $apiname);
-    return md5($arr[0] . date('Y-m-d:H'));
-}
